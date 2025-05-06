@@ -41,6 +41,8 @@ body {
 /* Page Styles */
 .page {
   margin-top: 60px; /* Offset for fixed navbar height */
+  background: url("../src/assets/background.png") no-repeat;
+  background-size: contain;
 }
 
 /* Webinar section styles */
@@ -86,6 +88,11 @@ body {
   border-radius: 5px;
   background-color: #fff;
   color: #333;
+  font-family: "Source Sans 3";
+}
+
+ input:focus {
+  outline: none;
 }
 
 .form-input::placeholder {
