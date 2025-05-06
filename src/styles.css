@@ -14,7 +14,7 @@
 
 /* Set default font */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   line-height: 1.6;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .webinar-form h2 {
-  font-family: "Source Sans 3";
+  font-family: 'Source Sans 3';
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 24px;
@@ -71,8 +71,7 @@ body {
   color: #B8824F;
   font-weight: 650;
   font-size: 29px;
-  font-family: "Source Sans 3";
-
+  font-family: 'Source Sans 3';
 }
 
 .registration-form {
@@ -88,10 +87,10 @@ body {
   border-radius: 5px;
   background-color: #fff;
   color: #333;
-  font-family: "Source Sans 3";
+  font-family: 'Source Sans 3';
 }
 
- input:focus {
+input:focus {
   outline: none;
 }
 
@@ -101,7 +100,7 @@ body {
 
 .register-btn {
   background-color: #B8824F;
-  font-family: "Source Sans 3";
+  font-family: 'Source Sans 3';
   color: #fff;
   border: none;
   padding: 16px 20px;
@@ -115,6 +114,10 @@ body {
   font-family: 'Source Sans 3';
   width: 229px;
   height: 58px;
+}
+
+.register-btn:hover {
+  background-color: #a0743f;
 }
 
 /* Webinar details styles (right side) */
@@ -133,4 +136,35 @@ body {
   height: auto;
   display: block;
   padding-bottom: 15px;
+}
+
+/* Thank You section styles (replaces form on left side) */
+.thank-you-section {
+  max-width: 400px;
+  margin-right: 100px;
+  color: #fff;
+}
+
+.thank-you-section h2 {
+  font-family: 'Source Sans 3';
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.thank-you-section {
+  color: red;
+  font-weight: 650;
+  font-size: 29px;
+}
+
+.highlight {
+  color: #B8824F;
+  font-weight: 650;
+  font-size: 29px;
+}
+
+.thank-you-section p {
+  font-size: 1.25rem;
+  color: #ccc;
 }
