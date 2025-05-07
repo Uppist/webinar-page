@@ -86,7 +86,9 @@ function Page() {
             </div>
           ) : (
             <div className="thank-you-section">
-              <h2>Thank You for signing up for the <span className="highlight">FREE WEBINAR.</span></h2>
+              <h2>
+                Thank You for signing up for the <span className="highlight">FREE WEBINAR.</span>
+              </h2>
               <p>Please check your email to access the Zoom meeting link.</p>
             </div>
           )}
