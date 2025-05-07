@@ -132,7 +132,7 @@ input:focus {
 }
 
 .webinar-image {
-  width: 100%;
+  width: 500px;
   height: auto;
   display: block;
   padding-bottom: 15px;
@@ -177,15 +177,20 @@ input:focus {
     flex-direction: column;
     min-height: auto;
     padding: 0 20px; /* Reduce side padding for mobile */
-    margin-top: 70px; /* 70px gap between navbar and image */
+    margin-top: 130px; /* Gap between navbar and image */
+    margin-bottom: 70px;
   }
 
   /* Reorder elements: image above form/thank-you on mobile */
   .webinar-details {
     order: -1; /* Moves image to appear first (above form) */
     max-width: 350px; /* Smaller width for mobile */
-    height: auto; /* Let height adjust naturally */
+    height: 345px; /* Let height adjust naturally */
     margin-bottom: 30px; /* Gap between image and form */
+  }
+
+  .webinar-image {
+    width: 350px;
   }
 
   /* Webinar form styles for mobile */
@@ -202,6 +207,7 @@ input:focus {
 
   .webinar-form .highlight {
     font-size: 23px; /* Adjust highlight size */
+    font-weight: 700;
   }
 
   .registration-form {
@@ -228,16 +234,19 @@ input:focus {
 
   .thank-you-section h2 {
     font-size: 24px; /* Match form heading size */
-    text-align: center; /* Center the heading */
+    text-align: left; /* Center the heading */
+    color: #2B2B2B;
+    font-weight: 450;
   }
 
   .thank-you-section .highlight {
     font-size: 23px; /* Match form highlight size */
+    font-weight: 700;
   }
 
   .thank-you-section p {
-    font-size: 18px; /* Slightly smaller text */
-    text-align: center; /* Center the text */
-    color: #ccc; /* Match form text visibility */
+    font-size: 17px; /* Slightly smaller text */
+    text-align: left; /* Center the text */
+    color: #2B2B2B; /* Match form text visibility */
   }
 }
