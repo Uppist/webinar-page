@@ -172,13 +172,17 @@ input:focus {
 
 /* Mobile Responsiveness (screen width <= 768px) */
 @media (max-width: 768px) {
+
+  .navbar-logo {
+    padding-left: 18px;
+  }
   /* Adjust webinar section for mobile: stack image and form vertically */
   .webinar-section {
     flex-direction: column;
     min-height: auto;
     padding: 0 20px; /* Reduce side padding for mobile */
     margin-top: 130px; /* Gap between navbar and image */
-    margin-bottom: 70px;
+    margin-bottom: 200px;
   }
 
   /* Reorder elements: image above form/thank-you on mobile */
@@ -190,7 +194,8 @@ input:focus {
   }
 
   .webinar-image {
-    width: 350px;
+    width: 320px;
+    height: 355px;
   }
 
   /* Webinar form styles for mobile */
